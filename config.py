@@ -3,7 +3,7 @@ from functools import lru_cache
 
 
 class Settings(BaseSettings):
-    mongodb_url: str = "mongodb+srv://gaurav:LfONkkk3xSXN7Ydq@cluster0.mjc7xzf.mongodb.net/.venv"
+    mongodb_url: str = "mongodb+srv://gaurav:LfONkkk3xSXN7Ydq@cluster0.mjc7xzf.mongodb.net/"
     db_name: str = "technosport_poc"
 
     azure_openai_endpoint: str = ""
